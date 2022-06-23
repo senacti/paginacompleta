@@ -24,7 +24,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     background:linear-gradient(70deg,black,white);
-   
+   text-transform: none;
    
 
 }
@@ -52,7 +52,7 @@ nav{
    background: rgba(0, 0, 0, .95 );
     text-align: center;
     transition: all .5s;
-
+text-decoration: none;
    
 }
 
@@ -62,7 +62,7 @@ nav{
     margin: 70px 0;
     transition: all .5s;
     font-family: Arial;
-
+    text-decoration: none;
 }
 
 .nav-menu li a{
@@ -75,12 +75,12 @@ padding: 10px  30px;
 background-color: rgb(117, 26, 26);
 color: #fff;
 border-radius: 20px;
-
+text-decoration: none;
 } 
 .nav-menu li a.active , .nav-menu li a:hover{
     color: rgb(255, 255, 255);
     transition: .3s;
-
+    text-decoration: none;
     background-color: rgb(0, 0, 0);
     color: #fff;
     border-radius: 20px;

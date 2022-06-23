@@ -23,7 +23,7 @@
                 <br>
                 <br>
 <div>
-     <a href="inventario.html" class="botton3">Iniciar Sesion</a>
+     <a href="./iniciosesion2.html" class="botton3">Iniciar Sesion</a>
 </div>
                
             </div>
@@ -42,17 +42,26 @@
                 </div>
             </div>
             <p class="cuenta-gratis">Crear una cuenta gratis</p>
-            <input type="text" placeholder="Nombre">
-            <input type="email" placeholder="Email">
-            <input type="password" placeholder="Contraseña">
-            <input type="button" value="Registrarse">
+            <input type="text"placeholder="Nombre" aria-required="true">
+            <label for="username">Tipo de Usuario</label>
+        <select name="Coordinacion" id="">
+            <option value="1">ADMINISTRADOR</option>
+            <option value="2">EMPLEADO</option>
+            <option value="3">AUXILIAR</option>
+        </select>
+        <br>
+        <br>
+
+            <input type="email" placeholder="Email : anbotton@hlt.com"required >
+            <input type="password" placeholder="Contraseña" required>
+            <input type="button" value="Registrarse"required>
             <br>
             <a href="index.html" class="botton">volver</a>
         </form>
     </div>
     <div class="container-form sign-in">
         <form class="formulario">
-            <a href="inventario.html">inicia Sesion</a> 
+            <a href="./iniciosesion2.html">inicia Sesion</a> 
             <div class="iconos">
                 <div class="border-icon">
                     <i class='bx bxl-instagram'></i>
@@ -67,7 +76,7 @@
             <p class="cuenta-gratis">¿Aun no tienes una cuenta?</p>
             <input type="email" placeholder="Email">
             <input type="password" placeholder="Contraseña">
-            <input type="button" value="Iniciar Sesion">
+            <button><a href="./iniciosesion2.html"> inicio de Sesion</a></button>
         </form>
         <div class="welcome-back">
             <div class="message">
